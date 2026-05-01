@@ -3,7 +3,7 @@
 [![deploy](https://img.shields.io/badge/🤗%20Hugging%20Face%20-PoseAwareDiff-FFEB3B)](https://huggingface.co/zzh0000/PAD)
 [![deploy](https://img.shields.io/badge/Project%20Page-black)](https://TODO)
 
-This is the official PyTorch implementation of *PAD: Pose-Aware 3D Generation*.
+This is the official PyTorch implementation of *Pose-Aware Diffusion for 3D Generation*.
 
 ## Installation
 
@@ -45,7 +45,6 @@ pip install git+https://github.com/microsoft/MoGe.git
 
 The following models are downloaded automatically from HuggingFace on first run (~17GB total). No manual action needed.
 
-> **Note**: You need access to HuggingFace (may require `huggingface-cli login` for gated models). Users in China may need to set `HF_ENDPOINT=https://hf-mirror.com` for faster downloads.
 
 | Model | HuggingFace ID | Purpose | Cache Location |
 |-------|---------------|---------|----------------|
